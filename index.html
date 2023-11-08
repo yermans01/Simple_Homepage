@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <img src="imagenes/alarado-icon-homepage.svg" alt="Logo de alarado">
+        <img class="logo" src="imagenes/alarado-icon-homepage.svg" alt="Logo de alarado">
         <nav>
-            <div>
+            <div class="pages">
                 <a href="#">About us</a>
                 <a href="#">Product</a>
                 <a href="#">Resource</a>
                 <a href="#">Contact</a>
             </div>
         </nav>
-        <div>
+        <div class="mode">
             <img src="imagenes/Sun_fill.svg" alt="Sol">
-        </div>
-        <div>
             <img src="imagenes/Moon_fill.svg" alt="Luna">
         </div>
     </header>
     <main>
-        <article class="lado_izquierdo">
+        <section class="lado_izquierdo">
             <div>
                 <div>
                     <p> 😎  Simple way to communicate </p>
@@ -36,18 +37,19 @@
                     <button>Get Started</button>
                     <a href="#">Get live demo</a>
                 </div>
-                <div>
-                    <input type="checkbox">No credit card required
-                    <input type="checkbox">No software to install
-                </div>
+                    <div class="check">
+                        <img src="imagenes/Done_ring_round_fill.svg" alt="Check"> 
+                        <h5>No credit card required</h5>
+                        <img src="imagenes/Done_ring_round_fill.svg" alt="Check">
+                        <h5>No software to install</h5>
+                    </div>
             </div>
-        </article>
-        <article class="lado_derecho">
+        </section>
+        <section class="lado_derecho">
             <div>
                 <img src="imagenes/hero-image-simple-homepage.png" alt="Imagen">
             </div>
-        </article>
+        </section>
     </main>
-    
 </body>
 </html>

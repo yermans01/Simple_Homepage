@@ -1,0 +1,88 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 1.5rem;
+}
+main{
+    display: flex;
+}
+.logo{
+    padding-left: 3.125rem;
+}
+.pages{
+    padding: 1.25rem;
+}
+.pages a{
+    padding-left: 1.25rem;
+    text-decoration: none;
+    color: #111729
+}
+.mode{
+    padding-right: 3.25rem;
+    padding-top: 1.25rem;
+    display: inline;
+}
+.lado_izquierdo{
+    width: 50%;
+    padding-left: 3.125rem;
+}
+.lado_izquierdo p{
+    font-size: 1rem;
+    padding-bottom: 1.25rem;
+}
+.lado_izquierdo h1{
+    font-size: 3.75rem;
+    margin-right: 260px;
+    padding-bottom: 1.25rem;
+    color: #223344;
+}
+.lado_izquierdo h4{
+    font-size: 1.125rem;
+    color: #909193;
+    margin-right: 13.75rem;
+    padding-bottom: 1.25rem;
+}
+.lado_izquierdo .botones{
+    padding-bottom: 1.25rem ;
+}
+.lado_izquierdo .botones button{
+    width: 8.438rem;
+    height: 3.125rem;
+    border-radius: 10px;
+    border: 0;
+    background-color: #2A4DD0;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+.lado_izquierdo .botones a{
+    margin-left: 45px;
+}
+.lado_izquierdo .check{
+    display: flex;
+    
+}
+.lado_izquierdo .check img{
+    filter: contrast(100%) sepia(2) hue-rotate(120deg) saturate(900%);
+    padding-right: 10px;
+}
+.lado_izquierdo .check h5{
+    font-size:  0.875rem;
+    color: #909193;
+    padding-right: 20px;
+    padding-top: 4px;
+}
+.lado_derecho{
+    width: 50%;
+}
+.lado_derecho img{
+    width: 85%;
+}
