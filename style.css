@@ -41,7 +41,7 @@ main{
 }
 .lado_izquierdo h1{
     font-size: 3.75rem;
-    margin-right: 260px;
+    margin-right: 16.25rem;
     padding-bottom: 1.25rem;
     color: #223344;
 }
@@ -57,32 +57,66 @@ main{
 .lado_izquierdo .botones button{
     width: 8.438rem;
     height: 3.125rem;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     border: 0;
     background-color: #2A4DD0;
     color: #FFFFFF;
     font-size: 1rem;
 }
 .lado_izquierdo .botones a{
-    margin-left: 45px;
+    margin-left: 2.813rem;
 }
 .lado_izquierdo .check{
     display: flex;
-    
 }
 .lado_izquierdo .check img{
     filter: contrast(100%) sepia(2) hue-rotate(120deg) saturate(900%);
-    padding-right: 10px;
+    padding-right: 0.625rem;
 }
 .lado_izquierdo .check h5{
     font-size:  0.875rem;
     color: #909193;
-    padding-right: 20px;
-    padding-top: 4px;
+    padding-right: 1.25rem;
+    padding-top: 0.25rem;
 }
 .lado_derecho{
     width: 50%;
 }
 .lado_derecho img{
-    width: 85%;
+    width: 90%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .logo{
+        padding-left: 1.125rem;
+    }
+    .mode{
+        padding-right: 1.125rem;
+    }
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .lado_izquierdo{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .lado_izquierdo h1{
+        font-size: 2.75rem;
+        margin-right: 10.25rem;
+        padding-bottom: 1.25rem;
+    }
+    .lado_derecho{
+        width: 100%;
+    }
+    .lado_derecho img{
+        width: 70%;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
 }
