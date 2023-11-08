@@ -7,29 +7,22 @@ body{
     font-family: 'Poppins';
 }
 header{
+    width: 100%;
+    padding: 2.5rem;
+}
+.nav{
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    padding-bottom: 1.5rem;
+}
+.nav-lista ul{
+    list-style: none;
+}
+.nav-lista ul li{
+    display: inline-block;
+    padding-right: 10px;
 }
 main{
     display: flex;
-}
-.logo{
-    padding-left: 3.125rem;
-}
-.pages{
-    padding: 1.25rem;
-}
-.pages a{
-    padding-left: 1.25rem;
-    text-decoration: none;
-    color: #111729
-}
-.mode{
-    padding-right: 3.25rem;
-    padding-top: 1.25rem;
-    display: inline;
 }
 .lado_izquierdo{
     width: 50%;
@@ -113,7 +106,7 @@ main{
     }
     .lado_derecho img{
         width: 70%;
-        margin-left: 50px;
+        margin-left: 4rem;
     }
 }
 
