@@ -1,7 +1,9 @@
-const menuIcon = document.querySelector('.menu-icon');
-const menu = document.querySelector('.menu_pages');
-
-menuIcon.addEventListener('click', function () {
-    menu.classList.toggle('show');
-    menuIcon.classList.toggle('active');
+const btn_darkmode = document.getElementById('darkmode');
+btn_darkmode.addEventListener('click', function(){
+    document.body.classList.toggle('dark');
 });
+
+_toggle.onclick = () =>{
+    _menu.classList.toggle("open");
+    _toggle.classList.toggle("close");
+}

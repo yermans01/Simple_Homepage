@@ -1,0 +1,30 @@
+body.dark{
+    background-color: #111729;
+}
+
+body.dark #darkmode{
+    background-position: right center;
+}
+body.dark .logo img{
+    filter: invert(1);
+}
+body.dark .lado_izquierdo h1{
+    color: #FFFFFF;
+}
+body.dark  .mode .image2{
+    filter: invert(1);
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body.dark  .mode .image2{
+        filter: invert(1);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body.dark .contenedor-movil{
+        background-color: #111729;
+    }
+    body.dark .nav-toggle span{
+        background-color: #FFF;
+    }
+}
